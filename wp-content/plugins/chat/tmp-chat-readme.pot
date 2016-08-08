@@ -1,0 +1,182 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Chat"
+msgstr ""
+
+#. Short description.
+msgid "Add chat to your blog. Chat with your readers and let them chat with each other."
+msgstr ""
+
+#. Screenshot description.
+msgid "In post chat"
+msgstr ""
+
+#. Screenshot description.
+msgid "Chat widget"
+msgstr ""
+
+#. Found in description header.
+msgid "You can use Chat lite to..."
+msgstr ""
+
+#. Found in description header.
+msgid "Get Started Quickly"
+msgstr ""
+
+#. Found in description header.
+msgid "Integrate With Your Theme"
+msgstr ""
+
+#. Found in description header.
+msgid "Chat Pro"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add a site-wide chat window in the bottom corner of your site"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add chat to any blog post or page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Answer support questions"
+msgstr ""
+
+#. Found in description list item.
+msgid "Promote web services or products"
+msgstr ""
+
+#. Found in description list item.
+msgid "Increase the ability for members of your social network to connect"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Allow any Twitter user to join the chat</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Allow any Facebook user to join the chat</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Allow any Google+ user to join the chat</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>BuddyPress Group Chat and Friend integration</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Private chats between WP users</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Select which roles are moderators</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Easily change chat colors</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Disable avatars</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Change chat update interval</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Archive every chat</strong> - You'll always have a record with timestamps on hand to refer back to when needed."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Chat polling</strong> - Change the frequency to check for new messages, handy for shared hosting environments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Start communicating!  Bring live, two-way chat to your site.\n"
+"Host your own live chat sessions, interact with your visitors and boost your\n"
+"sales without needing any third party javascript or other code - works great\n"
+"with BuddyPress and Multisite too."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=jbfXpzFmzKk]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Separate chat windows are added  to any post or page in WordPress through a new button added to the built-in editor."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Chat Lite Plugin gives you full control over the colors and sizes of your chats.  Get exactly the look and feel you want!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Chat lite is a fully functional but limited version of our <a href='http://premium.wpmudev.org/project/wordpress-chat-plugin'>full Chat plugin</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our full version includes many more features:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href='http://premium.wpmudev.org/project/wordpress-chat-plugin'><strong>Upgrade to the full version now &raquo;</strong></a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed emoticons not appearing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed emoticons settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed http links being broken in chat"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update for XSS vulnerability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with chat not scrolling on new message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested for WordPress 3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update for WordPress 3.5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding update code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow multiple links to be in the chat message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removing update notification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New WPIDs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Up the version to work with update plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""

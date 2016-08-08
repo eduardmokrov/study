@@ -1,0 +1,213 @@
+/*
+ Theme Name:   CoursePress Child
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Template:     coursepress
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  coursepress-child
+*/
+
+/****styles for chat custom*****/
+
+.wrap, .site-content{width: auto;}
+.custom-chat-area{padding-left: 0;}
+.custom-lesson-area{padding-right: 0; padding-left: 0;}
+
+#cometchat_embed_chatrooms_container iframe{max-width: 100%; min-height: 600px;}
+.cometchat_iframe, .cometchat_container_body, #cometchat_container_loadChatroomPro
+{
+	min-height: 500px;
+	min-width: 600px;
+}
+
+/**********************************/
+@media (min-width: 1366px){
+.container {
+    width: 1250px;
+}
+}
+.status_area, .control_buttons{color: red !important;display: none;}
+.cometchat_iframe .chatuser_img img{max-width: 100%;}
+
+
+.chat-area{min-height: 480px;}
+.custom-chat-area textarea.chat-send{height: 100px;}
+.user-banner{
+	border: 1px solid #222;
+        margin-bottom: 50px;
+}
+.user-banner>div{padding: 10px 15px}
+.user-banner .course-progress{
+	border-right: 1px solid #222;
+	margin-bottom: 0;
+}
+.user-banner .course-progress h5{margin-bottom: 10px;}
+.user-info{border-left: 1px solid #000; height: 100%;}
+.user-info .dropdown{display: inline-block;}
+.user-info .dropdown-toggle{cursor: pointer;}
+.user-info h4{font-size: 20px; display: inline-block; vertical-align: top; max-width: 100px}
+.user-info  i.fa{font-size: 60px; margin: 0 15px;}
+.user-info ul.dropdown-menu{
+    right: 0; 
+    left: auto;
+    text-align: center;
+    background: #f9f9f9;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+
+}
+.label{color: #000;}
+.front-single-module-save .module_description{padding-left: 0; margin: 0;}
+.unit-archive-single .tooltip{display: none;}
+
+.course_structure_page_li.single_column .tree-page-right, 
+.course_structure_unit_label.single_column .tree-unit-right{
+    display: none;
+    
+}
+footer.entry-meta{display: none;}
+
+.unit-item{
+    border: 2px solid #ff0000;
+    border-radius: 100%;
+    color: #ff0000;
+    padding: 5px 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: bolder;
+}
+.unit-item.color-green{border-color: green; color: green;}
+.unit-item-more{margin-right: 10px; font-size: 40px;}
+.unit-single{
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 15px;
+}
+
+
+.unit-single-child .chat-area .user-details{text-align: center; padding-right: 0;}
+.unit-single-child .chat-area .user-date{padding: 0; text-align: right; padding-right: 10px;}
+.unit-single-child div.chat-wrap.avatar-enabled img.avatar{
+    width: 100%; 
+    display: block;
+    float: none !important;
+    margin-right:10px !important;
+    margin-bottom: 5px !important;
+}
+.unit-single-child div.chat-wrap .chat-area span.date,
+.unit-single-child div.chat-wrap .chat-area span.name{
+    background: none !important;
+    color: #000 !important;
+    padding: 0 !important;
+}
+.unit-single-child div.chat-wrap .chat-area span.name{float: none !important;}
+.unit-single-child div.chat-wrap .chat-area span.date{float: right !important;}
+.unit-single-child .chat-area div.row{padding: 10px 0px !important;max-width: 100%; margin: 0;}
+
+.unit-single-child div.chat-wrap span.message{display: inline-block;}
+
+
+.unit-view-mentor .module_response_description{margin-top: 20px;}
+.unit-view-mentor label,
+.unit-view-mentor input[type="submit"]{display: none !important;}
+.unit-view-mentor p{margin-bottom: 10px;}
+
+.user-banner>.mentor-banner-area{border-right: 1px solid #000; text-align: center; padding:0}
+.mentor-banner-area p{margin-bottom: 0; font-size: 15px;}
+.mentor-banner-area .course-banner{border-bottom: 1px solid #000; padding: 10px 0}
+.user-banner>.banner-students{padding: 0;}
+.banner-students a{border: 1px solid #ccc; padding: 5px 10px; color: #000; text-decoration: none; border-top: none;}
+.course-add-lesson{padding: 10px 0;}
+.course-add-lesson a{color: #000; text-decoration: none;}
+.um_user_form .left-block{float: left; width: 30%;}
+.um_user_form .student_field{float: right; width: 70%}
+.um_user_form .student_field label{float: left; width: 25%}
+.um_user_form .student_field input{width: 50%;}
+.um_user_form .bottom-part{border-top: 1px solid #ccc; padding-top: 30px;}
+.um_user_form .bottom-part label{float: left; margin-right: 15px;}
+.um_user_form .wp-editor-tools, .um_user_form .mce-toolbar-grp, .um_user_form .mce-statusbar{display: none;}
+.um_user_form .bottom-last label.um_label_inline {margin-right: 15px; float: left;}
+.um_user_form .bottom-last .wp-editor-wrap{width: 65%; float: left;}
+.um_user_form .student_edit_submit, #mentor_review_form .rev_submit{
+    background: transparent;
+    border: 2px solid green;
+    color: green;
+    font-size: 15px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+.um_user_form .student_av_up{width: 200px;}
+.um_user_form .student_avatar label{display: none;}
+.um_user_form .student_avatar .qq-upload-button{background: #286090}
+.um_user_form .student_avatar p{margin-bottom: 0;}
+#mentor_review_form .rev_submit{float: initial;}
+#mentor_review_form .error{color: #ff0000;}
+.um_user_form .pf_ajax_result{margin-top: 70px;}
+.mentor_edit_form .student_field label{width: 30%;}
+.mentor_students table.table{border:none;}
+.mentor_students table.table tr th:first-child{border-left: none;}
+.mentor_students table.table tr th:last-child{border-right: none;}
+.student-course-item h3{margin-bottom: 10px;}
+.student-course-item h3 a{font-size: 13px; text-transform: uppercase; text-decoration: none; color: #222;}
+.mentor-wrap{padding-top: 30px;}
+.mentor-wrap h1.instructor-title{margin-bottom: 15px; font-weight:bold}
+.mentor-wrap .instructor_avatar_full{border-radius: 20px;}
+.mentor-review-wrap{padding-top: 30px;}
+.mentor-review-wrap h3{font-weight: bold}
+.mentor-review-wrap ul li{margin-bottom: 20px; display: table;}
+.mentor-review-wrap ul li p:before{content: "\201C";}
+.mentor-review-wrap ul li p:after{content: "\201D";}
+.mentor-review-wrap ul li p{margin-bottom: 0; font-size: 25px; font-style:italic;}
+.mentor-review-wrap ul li span{text-align: right; display: block;}
+.profile-wrap{padding: 30px 0;}
+.profile-wrap h2.mentor-name{margin-bottom: 15px; font-weight:bold}
+
+.unit-nav a, .unit-nav a i.fa, .unit-nav span.nav-locked{text-decoration: none; color: #000; font-size: 18px; font-weight: bold}
+.unit-nav a i{margin: 0 5px;}
+.unit-nav a.next_lesson, .unit-nav span.nav-locked{float: right;}
+p.mentor-module-title{margin-bottom: 0; font-weight: bold; font-size: 18px;}
+
+//.custom-lesson-area #modules_form input[type="submit"].apply-button-enrolled{display: none;}
+.custom-lesson-area a.save_progress{color: #fff;}
+.student_lessons li.submenu-notifications{display: none;}
+.mentor-student-item small{color: #ff0000; border-radius: 50%; border: 1px solid #ff0000; margin: 0 5px; padding: 0 5px;}
+.lesson_edit_wrap{text-align: right; margin-bottom: 10px;}
+.lesson_edit_wrap a{ text-decoration: none; color: #9c9c9c; font-size: 15px; padding: 5px 10px; border: 1px solid #ccc; font-weight: bolder; margin-right: 15px;}
+/**login form**/
+.custom-login{margin-bottom: 50px;}
+.custom-login form{padding: 30px 0 10px 0}
+.custom-login form p{margin-bottom: 0px;}
+.custom-login form label{margin-bottom: 5px;}
+.custom-login form input[type='text'], .custom-login form input[type='password']{width: 100%; margin-bottom: 20px;}
+.custom-login form p.login-remember{text-align: right;}
+.custom-login form .button-primary{
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.custom-login .login_links a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px
+}
+.custom-login .login_links a.reg_link{float: right}
+
+/************question Hint*************/
+.text_input_module .module_title, .mentor-module-title{float: left;}
+.text_input_module  .module_description, .module_response_description.text_input_module{text-align: right; line-height: normal;}
+.text_input_module  .module_description i, .module_response_description.text_input_module i{cursor: pointer; color: #1cb8ea}
+.text_input_module  .module_description p, .module_response_description.text_input_module p{
+    display: none;
+    text-align: left; 
+    margin-bottom: 0; 
+    background: #fff; 
+    padding:10px; 
+    line-height: normal;
+}
+.unit-view-mentor .module_textarea_response_answer, .module_text_response_answer{clear: left;}

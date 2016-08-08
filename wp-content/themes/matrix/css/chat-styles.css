@@ -1,0 +1,17 @@
+/****styles for chat custom*****/
+#cometchat_embed_chatrooms_container iframe{max-width: 100%;}
+.cometchat_iframe, .cometchat_container_body, #cometchat_container_loadChatroomPro
+{
+	min-height: 500px;
+	min-width: 600px;
+}
+.status_area, .control_buttons{color: red !important;display: none;}
+.cometchat_iframe .chatuser_img img{max-width: 100%;}
+.user-banner{
+	border: 1px solid #222;
+	padding: 20px 0;
+}
+.user-banner .user-nots, .user-banner .course-progress{
+	border-right: 1px solid #222;
+	margin-bottom: 0;
+}

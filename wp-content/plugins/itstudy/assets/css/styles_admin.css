@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2016, 2:30:10 PM
+    Author     : Iguan
+*/
+
+#sortable-table-itstudy .column-thumbnail img{
+    max-width: 50px;
+    height: auto;
+}
+
+
+
+
+
+div.option-item select {
+    background: #fff url(../images/input-bg.png) repeat-x top;
+    padding: 4px 5px;
+    -webkit-box-shadow: 0 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px rgba(0, 0, 0, .05);
+    width: 250px;
+    height: 27px;
+}
+
+
+div.option-item {
+    clear: both;
+    padding: 20px 26px;
+    overflow: hidden;
+    background: url(../images/sep.png) repeat-x bottom;
+    position: relative;
+}
+
+div.option-item:last-child {
+    background: transparent;
+}
+
+.itstudy-option-item .label {
+    width: 205px;
+    display: inline-block;
+    float: left;
+    padding-top: 4px;
+    font-size: 11pt;
+}
+#course_students-item .label{float: none;}
+.student-listing li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.tags-list {
+    padding-right: 250px;
+    display: none;
+}
+
+.itstudy-option-item .mo-help {
+    background: url(../images/help.png) no-repeat top;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: help;
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
